@@ -1,0 +1,30 @@
+.option {
+  display: inline-block;
+  height: 50px;
+}
+label {
+  display: block;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.nav-select {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.form-select {
+  width: 200px;
+  outline: 0;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0.5rem 0.7rem;
+  border: 2px solid gray;
+  font-weight: 600;
+  background-color: #faf8f8;
+}
+.form-select:focus {
+  border: 2px solid #325cd9;
+}

@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation__bar {
+  background-color: #325cd9;
+  height: 60px;
+  width: 100vw;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-brand {
+  display: flex;
+  align-content: center;
+  margin: 0 80px;
+}
+.nav-brand > h1 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}

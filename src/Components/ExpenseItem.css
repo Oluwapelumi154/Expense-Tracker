@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.expense-Item {
+  width: 100%;
+  background-color: #325cd9;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  border-radius: 8px;
+  color: #f0f1f2;
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.expense_details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.expense-item__date {
+  margin-right: 20px;
+}
+.expense-item__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 85px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid gray;
+  background-color: #faf8f8;
+  color: black;
+  font-weight: 600;
+}
+.expense_details > h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}

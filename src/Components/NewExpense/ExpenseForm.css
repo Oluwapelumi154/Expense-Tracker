@@ -1,0 +1,67 @@
+.new-expense__Control > label {
+  display: block;
+}
+input[type="text"],
+input[type="date"] {
+  width: 345px;
+  height: 45px;
+  outline: 0;
+  border-radius: 5px;
+  border: 1px solid #857f7f;
+  padding: 0.5rem 0.7rem;
+  background-color: #faf8f8;
+  margin-top: 3px;
+  box-shadow: 0 0 0 1px #857f7f;
+  transition: input 0.5s;
+}
+.new-expense__Control > input:focus {
+  height: 45px;
+  box-shadow: 0 0 0 1px #325cd9;
+  border: 2px solid #325cd9;
+  background-color: #fff;
+}
+.new-expense__Control > input::placeholder {
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.new-expense__Control {
+  margin: 0 10px 10px 0;
+}
+.new-expense__Control label {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #000;
+}
+
+.new-expense__actions > button {
+  border: 0;
+  padding: 18px;
+  border-radius: 7px;
+  background-color: #325cd9;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  color: #faf8f8;
+  margin: 0 80px;
+}
+.new-expense__actions > button:hover {
+  border: 0;
+  padding: 18px;
+  border-radius: 7px;
+  background-color: #3254bd;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  color: #faf8f8;
+  margin: 0 80px;
+}
+
+.new-expense__Controls {
+  margin: 20px 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
